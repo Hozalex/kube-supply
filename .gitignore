@@ -1,0 +1,21 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+/config/local.*
+/config/*kubeconfig*
+*.key
+
+# Build outputs
+/bin/
+/dist/
+/coverage.out
+/web/node_modules/
+/web/dist/
+/web/coverage/
+
+# Local tools and OS
+.DS_Store
+.idea/
+.vscode/
+*.log
